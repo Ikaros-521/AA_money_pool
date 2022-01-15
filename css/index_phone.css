@@ -1,0 +1,97 @@
+div#homepage_div {
+    text-align: center;
+}
+
+#addBtn {
+    font-size: 30px;
+    border: 3px solid #ddd;
+    border-radius: 3px;
+    width: 50%;
+}
+
+#useBtn {
+    font-size: 30px;
+    border: 3px solid #ddd;
+    border-radius: 3px;
+    width: 50%;
+}
+
+div#event_list {
+    height: 80%;
+    width: 100%;
+}
+
+#add_div {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+div#header_add_div {
+    height: 5%;
+    border-bottom: 1px solid;
+}
+
+div#main_add_div {
+    height: 95%;
+}
+
+div#main_add_div span {
+    font-size: 30px;
+}
+
+button#launchBtn_add_div {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    height: 10%;
+    font-size: 30px;
+}
+
+div#main_add_div input {
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+}
+
+#use_div {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+div#bottom_func_btn {
+    width: 100%;
+    height: 20%;
+    border-top: 3px solid;
+    display: flex;
+}
+
+div#header_add_div span {
+    font-size: 24px;
+}
+
+div#use_div span {
+    font-size: 24px;
+}
+
+.common_backBtn {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div#header_use_div {
+    height: 5%;
+    border-bottom: 1px solid;
+}
+
+div#main_use_div {
+    height: 95%;
+}
+
+select#event_select {
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+}

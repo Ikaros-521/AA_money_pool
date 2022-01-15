@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>AA蓄钱池</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <script src="js/data.js"></script>
+</head>
+
+<body>
+    <div id="header">
+    </div>
+    <div id="homepage_div">
+        <div id="header_homepage_div">
+        </div>
+        <div id="main_homepage_div">
+            <div id="event_list"></div>
+            <div id="bottom_func_btn">
+                <div id="addBtn" onclick="showPage('add_div')">
+                    发起AA
+                </div>
+                <div id="useBtn" onclick="showPage('use_div')">
+                    使用蓄钱池
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="add_div">
+        <div id="header_add_div">
+            <span class="common_backBtn" id="backBtn_add_div" onclick="showPage('homepage_div')"><</span>
+            <span>发起AA</span>
+        </div>
+        <div id="main_add_div">
+            <span>事件命名</span>
+            <br>
+            <input id="event_name_add_div" type="text" value="">
+            <br><br>
+            <span>单次需要存入的金额</span>
+            <br>
+            <input id="once_money_add_div" type="text" value="">
+            <br><br>
+            <span>结束时间</span>
+            <br>
+            <input id="end_time_add_div" type="text" value="">
+            <button id="launchBtn_add_div" onclick="launchAA()">发起</button>
+        </div>
+    </div>
+    <div id="use_div">
+        <div id="header_use_div">
+            <span class="common_backBtn" id="backBtn_use_div" onclick="showPage('homepage_div')"><</span>
+            <span>今天全场的消费由本公子买单</span>
+        </div>
+        <div id="main_use_div">
+            <select id="event_select">
+            </select>
+            <img src="img/github.png">
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>
