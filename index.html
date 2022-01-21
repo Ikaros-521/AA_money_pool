@@ -48,6 +48,28 @@
             <button id="launchBtn_add_div" onclick="launchAA()">发起</button>
         </div>
     </div>
+    <div id="join_div">
+        <div id="header_join_div">
+            <span class="common_backBtn" id="backBtn_join_div" onclick="showPage('homepage_div')"><</span>
+            <span id="event_name_join_div"></span>
+        </div>
+        <div id="main_join_div">
+            <span>已存总金额:</span>
+            <span id="all_money_join_div"></span>
+            <br>
+            <span>需要存入的金额:</span>
+            <span id="once_money_join_div"></span>
+            <br>
+            <span>结束时间:</span>
+            <span id="end_time_join_div"></span>
+            <br>
+            <span>你的昵称</span>
+            <br>
+            <input id="name_join_div" type="text" value="">
+            <br>
+            <button id="storeBtn_join_div">存入</button>
+        </div>
+    </div>
     <div id="use_div">
         <div id="header_use_div">
             <span class="common_backBtn" id="backBtn_use_div" onclick="showPage('homepage_div')"><</span>
@@ -57,7 +79,16 @@
             <select id="event_select">
             </select>
             <img src="img/github.png">
+            <br>
+            <span>已用金额:</span>
+            <span id="use_money_use_div"></span>
+            <br>
+            <span>剩余金额:</span>
+            <span id="surplus_money_use_div"></span>
         </div>
+    </div>
+    <div id="tip_div">
+        <span id="tip_span">tip:xxxxxxxx</span>
     </div>
     <div id="footer">
 
