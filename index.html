@@ -20,10 +20,10 @@
             <div id="event_list"></div>
             <div id="bottom_func_btn">
                 <div id="addBtn" onclick="showPage('add_div')">
-                    发起AA
+                    <p>发起AA</p>
                 </div>
                 <div id="useBtn" onclick="showPage('use_div')">
-                    使用蓄钱池
+                    <p>使用蓄钱池</p>
                 </div>
             </div>
         </div>
@@ -54,19 +54,22 @@
             <span id="event_name_join_div"></span>
         </div>
         <div id="main_join_div">
-            <span>已存总金额:</span>
-            <span id="all_money_join_div"></span>
-            <br>
-            <span>需要存入的金额:</span>
-            <span id="once_money_join_div"></span>
-            <br>
-            <span>结束时间:</span>
-            <span id="end_time_join_div"></span>
-            <br>
-            <span>你的昵称</span>
-            <br>
-            <input id="name_join_div" type="text" value="">
-            <br>
+            <div class="main_join_common_div">
+                <span>已存总金额:</span>
+                <span id="all_money_join_div"></span>
+            </div>
+            <div class="main_join_common_div">
+                <span>需要存入的金额:</span>
+                <span id="once_money_join_div"></span>
+            </div>
+            <div class="main_join_common_div">
+                <span>结束时间:</span>
+                <span id="end_time_join_div"></span>
+            </div>
+            <div class="main_join_common_div">
+                <span>你的昵称</span>
+                <input id="name_join_div" type="text" value="">
+            </div>
             <button id="storeBtn_join_div">存入</button>
         </div>
     </div>

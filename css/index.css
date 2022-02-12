@@ -1,19 +1,31 @@
+body {
+    background: #d5eafd;
+}
+
+input {
+    background: white;
+}
+
+button {
+    background: aliceblue;
+    border: 0px;
+}
+
 div#homepage_div {
     text-align: center;
 }
 
 #addBtn {
     font-size: 30px;
-    border: 3px solid #ddd;
-    border-radius: 3px;
     width: 50%;
+    background: #aaddf6;
+    margin: 0 5px 0 0;
 }
 
 #useBtn {
     font-size: 30px;
-    border: 3px solid #ddd;
-    border-radius: 3px;
     width: 50%;
+    background: #aaddf6;
 }
 
 div#event_list {
@@ -79,6 +91,8 @@ div#use_div span {
 .common_backBtn {
     font-weight: bold;
     font-size: 24px;
+    border: 1px solid;
+    padding: 3px 20px 3px 20px;
 }
 
 div#header_use_div {
@@ -130,4 +144,29 @@ div#join_div input {
     position: relative;
     color: #ffffffd4;
     font-family: cursive;
+}
+
+div#event_list span {
+    font-size: 26px;
+}
+
+div#main_join_div span {
+    font-size: 26px;
+}
+
+span#event_name_join_div {
+    font-size: 24px;
+}
+
+div#header_join_div {
+    border-bottom: 1px solid #c7c7c7;
+    height: 5%;
+}
+
+div#main_join_div {
+    height: 80%;
+}
+
+.main_join_common_div {
+    margin: 10px 0px;
 }

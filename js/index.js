@@ -82,10 +82,12 @@ function showPage(pageId, data) {
         $('#storeBtn_join_div').on('click', function(){
             var data = {name: $("#name_join_div").val(), use: 0};
             event_list["event"][event_id]["participants"].push(data);
-            event_list["event"][event_id]["all_money"] = int(event_list["event"][event_id]["all_money"]) + 
-                int(event_list["event"][event_id].once_money);
+            event_list["event"][event_id]["all_money"] = parseInt(event_list["event"][event_id]["all_money"]) + 
+                parseInt(event_list["event"][event_id].once_money);
             console.log("加入成功!");
             show_hide_tip("成功加入 " + event_list["event"][event_id].name, 3000);
+            // 更新新的总金额
+            $("#all_money_join_div").html(event_list["event"][event_id].all_money);
             console.log(event_list);
         });
     }
@@ -125,6 +127,9 @@ function showEventList() {
         event_li.style.borderRadius = "3px";
         event_li.style.height = "20%";
         event_li.style.display = "flex";
+        event_li.style.background = "aliceblue";
+        event_li.style.padding = "10px";
+        event_li.style.margin = "10px";
 
         event_li.appendChild(ico);
         event_li.appendChild(event_name);
